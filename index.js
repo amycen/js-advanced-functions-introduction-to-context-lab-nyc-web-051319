@@ -8,3 +8,7 @@ function createEmployeeRecord(arr) {
     timeOutEvents: []
   }
 }
+
+function createEmployees(arr) {
+  arr.forEach(employee => createEmployeeRecord(employee))
+}
