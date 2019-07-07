@@ -10,5 +10,5 @@ function createEmployeeRecord(arr) {
 }
 
 function createEmployees(arr) {
-  arr.forEach(employee => createEmployeeRecord(employee))
+  return arr.map(employee => createEmployeeRecord(employee))
 }
